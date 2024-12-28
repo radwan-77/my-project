@@ -24,7 +24,8 @@ const AboutUs = () => {
 
   const imageGridStyle = {
     display: "grid",
-    gridTemplateColumns: "repeat(5, 2fr)", // 5 images in a row
+    gridTemplateColumns: "repeat(5, 2fr)",
+    gap: "5px", // 5 images in a row
   };
 
   const imageStyle1 = {
