@@ -7,7 +7,7 @@ const AboutUs = () => {
     textAlign: "center",
     fontFamily: "'Arial', sans-serif",
     maxWidth: "1200px",
-    margin: "0 auto",
+    margin: "0 auto", // to center the section height then the width
   };
 
   const titleStyle = {
@@ -24,14 +24,12 @@ const AboutUs = () => {
 
   const imageGridStyle = {
     display: "grid",
-    gridTemplateColumns: "repeat(5, 3fr)", // 5 images in a row
-    gap: "1px",
-    justifyContent: "center",
-    alignItems: "center",
+    gridTemplateColumns: "repeat(5, 2fr)", // 5 images in a row
   };
 
   const imageStyle1 = {
     gridColumn: "span 1",
+    gridRow: "span 2",
     position: "relative",
     top: "50px",
     // Changed to span 2 columns
@@ -39,7 +37,6 @@ const AboutUs = () => {
     height: "100%", // Changed height to 100%
     borderRadius: "10px",
     objectFit: "cover",
-    padding: "0 5px",
   };
 
   const imageStyle2 = {
