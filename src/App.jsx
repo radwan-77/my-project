@@ -105,7 +105,6 @@ const App = () => {
       <ProductShowcase products={filteredProducts} />
 
       <AboutUs />
-
       <Footer />
     </div>
   );
