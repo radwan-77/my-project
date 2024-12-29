@@ -1,4 +1,11 @@
-import Screenshot from "../assets/2.jpg";
+import product1 from "../assets/images/1.jpg";
+import product2 from "../assets/images/2.jpg";
+import product3 from "../assets/images/3.jpg";
+import product4 from "../assets/images/4.jpg";
+import product5 from "../assets/images/5.jpg";
+import product6 from "../assets/images/6.jpg";
+import product7 from "../assets/images/7.jpg";
+import product8 from "../assets/images/8.jpg";
 import React from "react";
 
 const AboutUs = () => {
@@ -70,11 +77,11 @@ const AboutUs = () => {
         </p>
       </div>
       <div style={imageGridStyle}>
-        <img src={Screenshot} alt="Style 1" style={imageStyle2} />
-        <img src={Screenshot} alt="Style 2" style={imageStyle1} />
-        <img src={Screenshot} alt="Style 3" style={imageStyle2} />
-        <img src={Screenshot} alt="Style 4" style={imageStyle1} />
-        <img src={Screenshot} alt="Style 5" style={imageStyle2} />
+        <img src={product1} alt="Style 1" style={imageStyle2} />
+        <img src={product3} alt="Style 2" style={imageStyle1} />
+        <img src={product2} alt="Style 3" style={imageStyle2} />
+        <img src={product6} alt="Style 4" style={imageStyle1} />
+        <img src={product7} alt="Style 5" style={imageStyle2} />
       </div>
       <button
         style={buttonStyle}
