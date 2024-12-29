@@ -110,6 +110,20 @@ const allProducts = [
     gender: "Men's Wear",
   },
   {
+    name: "Black Jeans",
+    price: 900,
+    image: product5,
+    category: "Sale",
+    gender: "Men's Wear",
+  },
+  {
+    name: "Black Jeans",
+    price: 900,
+    image: product5,
+    category: "Sale",
+    gender: "Men's Wear",
+  },
+  {
     name: "Black Leather Bag",
     price: 800,
     image: product6,
